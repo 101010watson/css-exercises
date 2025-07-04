@@ -1,0 +1,15 @@
+.Click{
+    background-color: black;
+    color: white;
+}
+
+.NOclick{
+    background-color: yellow;
+}
+
+.Click,.NOclick{
+    font-size: 24px;
+    font-family: 'Helvetica','Times New Roman', sans-serif;
+}
+
+/* so this one is grouping it is used when any no. of classes that have the same style we can group them using a comma separated list*/

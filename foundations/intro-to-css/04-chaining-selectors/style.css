@@ -1,1 +1,12 @@
 /* Add CSS Styling */
+.avatar.proportioned{
+    width: 300px;
+    height: 300px;
+}
+
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
+
+/* so chaining selectors is like filtering the classes so that we dont accidentally change the properties of another class which we did not intend to and maintain an unique style for different classes */
